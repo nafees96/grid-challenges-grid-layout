@@ -1,0 +1,92 @@
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+br{
+    color: grey;
+}
+h3{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 11px;
+}
+
+.image1{
+    width: 165px;
+    border-radius: 52%;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: solid 3px white;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+  img {
+    border: 0;
+    display: block;
+    width: 100%;
+  }
+  .border{
+    border-top: 1px solid;
+    color: lightgrey;
+    line-height: 1.5;
+  }
+  
+
+  .grid {
+      max-width: 40em;
+      list-style: none;
+      margin: 30px auto;
+      padding: 1;
+  }
+  .grid .item {
+      display: block;
+      float: left;
+      padding: 2px;
+      width: 33%;
+      opacity: 1;
+  }
+  .grid .item2 {
+    display: block;
+    float: left;
+    padding: 2px;
+    width: 50%;
+    opacity: 1;
+}
+  .grid .item a,.grid .item img {
+      outline: none;
+      border: none;
+      display: block;
+      max-width: 100%;
+  }
+  
+  
